@@ -1,15 +1,15 @@
 {
-  "name": "test-typescript",
+  "name": "angular2-typescript-jspm-trial",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pleasurazy <pleasurazy@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
-    "babel": "^5.8.20",
+    "babel-core": "^5.8.20",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.0",
     "gulp-load-plugins": "^0.10.0",
