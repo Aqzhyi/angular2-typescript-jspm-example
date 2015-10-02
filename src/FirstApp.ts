@@ -1,5 +1,6 @@
 /// <reference path="../typings/tsd.d.ts"/>
 
+import 'bootstrap/css/bootstrap.min.css!'
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2'
 
 let list = [
@@ -14,11 +15,13 @@ let list = [
 
 @View({
   template: `
-    <h1>hello {{name}}</h1>
+    <div class="container">
+      <h1 class="alert alert-warning">hello {{name}}</h1>
 
-    <ul>
-      <li *ng-for="#item of list">{{ item }}</li>
-    </ul>
+      <ul class="list-group">
+        <li class="list-group-item" *ng-for="#item of list">{{ item }}</li>
+      </ul>
+    </div>
   `,
   directives: [NgFor]
 })

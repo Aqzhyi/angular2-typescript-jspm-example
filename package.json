@@ -26,6 +26,9 @@
     "configFile": "jspm.conf.js",
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-alpha.33",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "clean-css": "npm:clean-css@^3.4.5",
+      "css": "github:systemjs/plugin-css@^0.1.18",
       "reflect-metadata": "npm:reflect-metadata@^0.1.0"
     },
     "devDependencies": {
