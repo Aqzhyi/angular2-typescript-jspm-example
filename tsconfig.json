@@ -14,8 +14,9 @@
         "./src/**/*.ts"
     ],
     "files": [
-        "./src/FirstApp/index.ts",
+        "./src/about/index.ts",
         "./src/app.ts",
+        "./src/demo/index.ts",
         "./src/navbar/index.ts"
     ]
 }
