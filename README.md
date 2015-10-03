@@ -4,7 +4,12 @@
 
 ## Preview
 
-![](http://i.imgur.com/HFVrQyr.png)
+```html
+<navbar></navbar>
+<first-app></first-app>
+```
+
+![](http://i.imgur.com/36wZwUL.png)
 
 ## Start dev
 
