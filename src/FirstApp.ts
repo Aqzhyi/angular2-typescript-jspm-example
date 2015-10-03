@@ -1,6 +1,5 @@
 /// <reference path="../typings/tsd.d.ts"/>
 
-import 'bootstrap/css/bootstrap.min.css!'
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2'
 
 let list = [
