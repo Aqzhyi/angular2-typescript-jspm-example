@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts"/>
+/// <reference path="../../typings/tsd.d.ts"/>
 
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2'
 
@@ -13,15 +13,7 @@ let list = [
 })
 
 @View({
-  template: `
-    <div class="container">
-      <h1 class="alert alert-warning">hello {{name}}</h1>
-
-      <ul class="list-group">
-        <li class="list-group-item" *ng-for="#item of list">{{ item }}</li>
-      </ul>
-    </div>
-  `,
+  templateUrl: './src/FirstApp/index.html',
   directives: [NgFor]
 })
 

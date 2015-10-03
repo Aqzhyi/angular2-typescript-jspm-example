@@ -11,10 +11,11 @@
         "convertTabsToSpaces": true
     },
     "filesGlob": [
-        "./src/*.ts"
+        "./src/**/*.ts"
     ],
     "files": [
-        "./src/FirstApp.ts",
-        "./src/app.ts"
+        "./src/FirstApp/index.ts",
+        "./src/app.ts",
+        "./src/navbar/index.ts"
     ]
 }
