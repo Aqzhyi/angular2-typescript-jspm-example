@@ -16,6 +16,7 @@
     "files": [
         "./src/FirstApp/index.ts",
         "./src/app.ts",
+        "./src/favorite-games/index.ts",
         "./src/navbar/index.ts"
     ]
 }

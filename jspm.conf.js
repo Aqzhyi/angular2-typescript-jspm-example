@@ -23,6 +23,7 @@ System.config({
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.18",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
+    "zone.js": "npm:zone.js@0.5.7",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
