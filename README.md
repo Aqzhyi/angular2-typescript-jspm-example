@@ -6,10 +6,10 @@
 
 ```html
 <navbar></navbar>
-<first-app></first-app>
+<router-outlet></router-outlet>
 ```
 
-![](http://i.imgur.com/36wZwUL.png)
+![](http://i.imgur.com/RXXTRrP.png)
 
 ## Start dev
 
